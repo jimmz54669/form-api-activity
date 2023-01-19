@@ -19,9 +19,6 @@
     </div>
     <section class="col" id="section">
         <div class="container mt-5 mx-5" id="sec1">
-            <div class="row">
-                <div class="col">
-                    <div class="card-text">
                         <div class="card-body" id="c1">
                             <div class="row">
                                 <div class="col">
@@ -30,8 +27,8 @@
                                         <div class="row">
                                             <div class="col">
                                                 <div class="form-floating">
-                                                    <input type="text" class="form-control my-3" id="fullname" placeholder="Full name" required>
-                                                    <label for="fullname" class="form-label">Full name <i class="bi bi-envelope-fill"></i></label>
+                                                    <input type="text" class="form-control my-3" id="fullname" name="fullname" placeholder="Full name" required>
+                                                    <label for="fullname" class="form-label">Full name </label>
                                                     <div class="valid-feedback"><i class="bi bi-hand-thumbs-up"></i></div>
                                                     <div class="invalid-feedback"><i class="bi bi-exclamation-triangle"></i>Please enter your full name</div>
                                                 </div>
@@ -40,8 +37,8 @@
                                         <div class="row">
                                             <div class="col">
                                                 <div class="form-floating">
-                                                    <input type="email" class="form-control my-3" id="email" placeholder="Enter email" required>
-                                                    <label for="email" class="form-label">Email <i class="bi bi-lock-fill"></i></label>
+                                                    <input type="email" class="form-control my-3" id="email" name="email" placeholder="Enter email" required>
+                                                    <label for="email" class="form-label">Email <i class="bi bi-envelope-fill"></i></label>
                                                     <div class="valid-feedback"><i class="bi bi-hand-thumbs-up"></i></div>
                                                     <div class="invalid-feedback"><i class="bi bi-exclamation-triangle"></i>Please provide your Email</div>
                                                 </div>
@@ -49,8 +46,8 @@
                                         </div>
                                         <div class="row mt-2">
                                             <div class="col w-100 d-flex">
-                                                <label class="form-check-label" for="check1">Comment:  </label>
-                                                <textarea id="check1" name="check" placeholder="Comment" required></textarea>
+                                                <label class="form-check-label" for="textarea">Comment:  </label>
+                                                <textarea id="textarea" placeholder="Comment" name="comment" required></textarea>
                                                 <div class="valid-feedback"><i class="bi bi-hand-thumbs-up"></i></div>
                                                 <div class="invalid-feedback"><i class="bi bi-exclamation-triangle"></i>Check this checkbox to continue.</div>
                                             </div>
